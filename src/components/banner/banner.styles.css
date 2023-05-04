@@ -1,11 +1,12 @@
+body {
+    margin: unset;
+}
+
 .banner {
     background-color: black;
     color: white;
-    position: absolute;
     width: 100%;
-    top: 0;
-    left: 0;
-    height: 5%;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
