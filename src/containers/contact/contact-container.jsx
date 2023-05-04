@@ -12,7 +12,7 @@ const ContactContainer = () => {
   const companyName = "Company Name";
   const contactUsText = "Contact Us";
   const contactUsDescription = "Please provide some information to get started";
-
+  const thankYouMsg = "Thank You! Form Submitted Successfully!";
   return (
     <div id="contact-container">
       <Banner message="Learn more about our latest features" />
@@ -30,7 +30,7 @@ const ContactContainer = () => {
         </div>
       ) : (
         <h1 id="thank-you-msg" className="thank-you-msg">
-          Thank You! Form Submitted Successfully!
+          {thankYouMsg}
         </h1>
       )}
       <Footer />

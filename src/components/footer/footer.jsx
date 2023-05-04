@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useCallback } from "react";
 import "./footer.styles.css";
 
 const Footer = () => {
+  const onFocus = useCallback(() => {
+    document.getElementById("email").focus();
+  });
   return (
     <div id="footer" className="footer">
       <div id="footer-content" className="footer-content">
@@ -20,10 +23,14 @@ const Footer = () => {
         </div>
         <div id="footer-column-3" className="footer-column">
           <br />
-          <b>Resources</b> <br /> <br />
+          <b>Resources</b>
+          <br /> <br />
           Terms Of Service <br /> <br />
           Privacy Policy <br /> <br />
           Support
+        </div>
+        <div id="footer-column-4" className="footer-column">
+          <b onClick={onFocus}>Focus On Email</b>
         </div>
       </div>
     </div>
