@@ -4,7 +4,8 @@
 
 .contact-body {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 65% 35%;
+    gap: 40px
 }
 
 .contact-container {

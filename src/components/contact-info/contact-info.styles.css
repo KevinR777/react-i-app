@@ -1,0 +1,14 @@
+.contact-info-column {
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.info-text {
+    font-size: 20px;
+}
+
+.phone-number-text {
+    color: blue
+}
