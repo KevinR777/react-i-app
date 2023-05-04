@@ -12,3 +12,16 @@
     box-sizing: border-box;
     height: 50px
 }
+
+.submit-button {
+    color: white;
+    background-color: black;
+    padding: 12px 50px;
+    margin: 48px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 24px;
+    width: fit-content;
+    justify-self: end;
+}
