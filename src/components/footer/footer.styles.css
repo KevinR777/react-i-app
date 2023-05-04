@@ -1,0 +1,17 @@
+
+.footer {
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 200px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}

@@ -4,6 +4,7 @@ import Form from "../../components/form/form";
 import ContactInfo from "../../components/contact-info/contact-info";
 import { useToggle } from "../../hooks/use-toggle";
 import "./contact-container.styles.css";
+import Footer from "../../components/footer/footer";
 
 const ContactContainer = () => {
   const { toggle, switchToggle } = useToggle(true);
@@ -32,6 +33,7 @@ const ContactContainer = () => {
           Thank You! Form Submitted Successfully!
         </h1>
       )}
+      <Footer />
     </div>
   );
 };

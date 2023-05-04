@@ -3,7 +3,7 @@ import * as React from "react"
 const IndexPage = () => {
   return (
     <main>
-      Hello World
+     Please go to the /contact route :)
     </main>
   )
 }
