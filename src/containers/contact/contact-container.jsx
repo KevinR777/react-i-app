@@ -1,8 +1,9 @@
 import React from 'react'
+import Banner from '../../components/banner/banner'
 
 const ContactContainer = () => {
-    return <div>
-        Contact Container
+    return <div id="contact-container">
+       <Banner message="Learn more about our latest features"/>
     </div>
 }
 
